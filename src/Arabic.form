@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Arabic">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="541" height="457"/>
+    </constraints>
+    <properties>
+      <background color="-16740221"/>
+      <enabled value="false"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <grid id="7802" binding="NamePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740221"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1eb22" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <text value="تحويل العملات "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a9c05" binding="ButtonPanel" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740221"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="ea89d" class="javax.swing.JButton" binding="calculateButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="تحويل"/>
+            </properties>
+          </component>
+          <component id="2cde8" class="javax.swing.JButton" binding="ExitButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <foreground color="-1767680"/>
+              <text value="خروج"/>
+            </properties>
+          </component>
+          <component id="b1e54" class="javax.swing.JButton" binding="ClearButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="مسح"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5e294" binding="CurrenciesPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740221"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1ae7e" class="javax.swing.JLabel" binding="CurrencyFrom">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="من"/>
+            </properties>
+          </component>
+          <component id="c98bd" class="javax.swing.JLabel" binding="CurrencyTo">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="الى "/>
+            </properties>
+          </component>
+          <component id="bf4f6" class="javax.swing.JComboBox" binding="FromComboBox">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="-- حدد العمله --"/>
+                <item value="وقية موريتاني MRU"/>
+                <item value="جينه السوداني SDG"/>
+                <item value="جينه المصري EGP"/>
+                <item value="درهم الامارتي AED"/>
+                <item value="درهم المغربي MAD"/>
+                <item value="دينار الاردني JOD"/>
+                <item value="دينار البحريني BHD"/>
+                <item value="دينار التونسي TND"/>
+                <item value="دينار الجزائري DZD"/>
+                <item value="دينار العراقي IQD"/>
+                <item value="دينار الكويتي KWD"/>
+                <item value="دينار الاليبي LYD"/>
+                <item value="ريال سعودي SAR"/>
+                <item value="ريال عماني OMR"/>
+                <item value="ريال قطري QAR"/>
+                <item value="ريال يمني YER"/>
+                <item value="شلن صومالي SOS"/>
+                <item value="فرنك جيبوتي DFJ"/>
+                <item value="فرنك قمري KMF"/>
+                <item value="ليرة السوريه SYP"/>
+                <item value="ليرة البنانية LBP"/>
+              </model>
+            </properties>
+          </component>
+          <component id="471f" class="javax.swing.JComboBox" binding="ToComboBox">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="-- حدد العمله --"/>
+                <item value="وقية موريتانية MRU"/>
+                <item value="جينه السوداني SDG"/>
+                <item value="جينه المصري EGP"/>
+                <item value="درهم الامارتي AED"/>
+                <item value="درهم المغربي MAD"/>
+                <item value="دينار الاردني JOD"/>
+                <item value="دينار البحريني BHD"/>
+                <item value="دينار التونسي TND"/>
+                <item value="دينار الجزائري DZD"/>
+                <item value="دينار العراقي IQD"/>
+                <item value="دينار الكويتي KWD"/>
+                <item value="دينار الاليبي LYD"/>
+                <item value="ريال سعودي SAR"/>
+                <item value="ريال عماني OMR"/>
+                <item value="ريال قطري QAR"/>
+                <item value="ريال يمني YER"/>
+                <item value="شلن صومالي SOS"/>
+                <item value="فرنك جيبوتي DFJ"/>
+                <item value="فرنك قمري KMF"/>
+                <item value="ليرة السوريه SYP"/>
+                <item value="ليرة البنانية LBP"/>
+              </model>
+            </properties>
+          </component>
+          <component id="82ad0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="حدد العمله "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a6a80" binding="AmountPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740221"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4c199" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="القيمه"/>
+            </properties>
+          </component>
+          <component id="a3173" class="javax.swing.JTextField" binding="Amount1TextField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3ec58" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="النتيجه"/>
+            </properties>
+          </component>
+          <component id="e365d" class="javax.swing.JTextField" binding="ResultTextField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="58999" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="ادخل القيمة"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="1e8aa">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e73e6">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="52e53">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="8cc98">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="9" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
