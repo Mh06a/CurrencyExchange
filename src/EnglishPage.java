@@ -77,7 +77,7 @@ public class EnglishPage extends JFrame {
                 FromComboBox.setSelectedIndex(0);
                 ToComboBox.setSelectedIndex(0);
                 ResultTextField.setText("");
-                AmountTextField.setText("");
+                AmountTextField.setText("") ;
             }
         });
 
