@@ -18,7 +18,7 @@ public class EnglishPage extends JFrame {
     public JTextField AmountTextField;
     public JTextField ResultTextField;
     private JButton cleanButton;
-    private JRadioButton oppositeRadioButton;
+    private JButton SwapButton;
     private String FromComboBox2 ;
     private String ToComboBox2 ;
     //*** Components ***
@@ -89,8 +89,8 @@ public class EnglishPage extends JFrame {
             }
         });
 
-
-        oppositeRadioButton.addActionListener(new ActionListener() {
+        // Button(((Swap)))
+        SwapButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 FromComboBox2 = Objects.requireNonNull(FromComboBox.getSelectedItem()).toString() ;

@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Objects;
 
 public class Arabic extends JFrame {
 
@@ -19,6 +20,9 @@ public class Arabic extends JFrame {
     public JTextField Amount1TextField;
     public JTextField ResultTextField;
     private JButton ClearButton;
+    private JButton SwapButton;
+    private String FromComboBox2 ;
+    private String ToComboBox2 ;
     // *** Components ***
 
 
@@ -29,6 +33,8 @@ public class Arabic extends JFrame {
         setVisible(true);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setTitle("Arabic page");
+
+
 
         // Button(((Convert))) :
         calculateButton.addActionListener(new ActionListener() {
@@ -87,7 +93,16 @@ public class Arabic extends JFrame {
             }
         });
 
-
+        // Button(((Swap)))
+        SwapButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                FromComboBox2 = Objects.requireNonNull(FromComboBox.getSelectedItem()).toString() ;
+                ToComboBox2 = Objects.requireNonNull(ToComboBox.getSelectedItem()).toString() ;
+                FromComboBox.setSelectedItem(ToComboBox2);
+                ToComboBox.setSelectedItem(FromComboBox2);
+            }
+        });
     } // *** Constructor ***
 
  } // class

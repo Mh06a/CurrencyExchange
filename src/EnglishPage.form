@@ -165,28 +165,32 @@
           </component>
           <component id="95fdc" class="javax.swing.JComboBox" binding="ToComboBox">
             <constraints>
-              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <model>
                 <item value="--Select Currency--"/>
-                <item value="Sudanese guinea SDG"/>
-                <item value="Egyptian guinea EGP"/>
-                <item value="Emirati dirham AED"/>
-                <item value="Moroccan dirham MAD"/>
-                <item value="Jordanian dinar JOD"/>
-                <item value="Bahraini dinar BHD"/>
-                <item value="Tunisian dinar TND"/>
-                <item value="Algerian dinar DZD"/>
-                <item value="Iraqi dinar IQD"/>
-                <item value="Kuwaiti dinar KWD"/>
-                <item value="Libyan dinar LYD"/>
-                <item value="Saudi riyal SAR"/>
-                <item value="Omani rial OMR"/>
-                <item value="Qatari riyal QAR"/>
-                <item value="Yemeni rial YER"/>
-                <item value="Syrian pound SYP"/>
-                <item value="Lebanese pound LBP"/>
+                <item value="Mauritanian Ouguiya   MRU "/>
+                <item value="Sudanese Gin   SDG "/>
+                <item value="Egyptian Gin   EGP "/>
+                <item value="Emirati Dirham   AED "/>
+                <item value="Moroccan Dirham   MAD "/>
+                <item value="Jordanian Dinar   JOD "/>
+                <item value="Bahraini Dinar   BHD "/>
+                <item value="Tunisian Dinar   TND "/>
+                <item value="Algerian Dinar   DZD "/>
+                <item value="Iraqi Dinar   IQD "/>
+                <item value="Kuwaiti Dinar   KWD "/>
+                <item value="Libyan Dinar   LYD "/>
+                <item value="Saudi Riyal   SAR "/>
+                <item value="Omani Riyal   OMR "/>
+                <item value="Qatari Riyal   QAR "/>
+                <item value="Yemeni Riyal   YER "/>
+                <item value="Somali Shilling   SOS "/>
+                <item value="Djiboutian Franc   DJF  "/>
+                <item value="Comorian Franc   KMF "/>
+                <item value="Syrian Pound   SYP "/>
+                <item value="Lebanese Pound   LBP  "/>
               </model>
             </properties>
           </component>
@@ -197,34 +201,39 @@
             <properties>
               <model>
                 <item value="--Select Currency--"/>
-                <item value="Sudanese guinea SDG"/>
-                <item value="Egyptian guinea EGP"/>
-                <item value="Emirati dirham AED"/>
-                <item value="Moroccan dirham MAD"/>
-                <item value="Jordanian dinar JOD"/>
-                <item value="Bahraini dinar BHD"/>
-                <item value="Tunisian dinar TND"/>
-                <item value="Algerian dinar DZD"/>
-                <item value="Iraqi dinar IQD"/>
-                <item value="Kuwaiti dinar KWD"/>
-                <item value="Libyan dinar LYD"/>
-                <item value="Saudi riyal SAR"/>
-                <item value="Omani rial OMR"/>
-                <item value="Qatari riyal QAR"/>
-                <item value="Yemeni rial YER"/>
-                <item value="Syrian pound SYP"/>
-                <item value="Lebanese pound LBP"/>
+                <item value="Mauritanian Ouguiya  MRU "/>
+                <item value="Sudanese Gin   SDG "/>
+                <item value="Egyptian Gin   EGP "/>
+                <item value="Emirati Dirham   AED "/>
+                <item value="Moroccan Dirham   MAD "/>
+                <item value="Jordanian Dinar   JOD "/>
+                <item value="Bahraini Dinar   BHD "/>
+                <item value="Tunisian Dinar   TND "/>
+                <item value="Algerian Dinar   DZD "/>
+                <item value="Iraqi Dinar   IQD "/>
+                <item value="Kuwaiti Dinar   KWD "/>
+                <item value="Libyan Dinar   LYD "/>
+                <item value="Saudi Riyal   SAR "/>
+                <item value="Omani Riyal   OMR "/>
+                <item value="Qatari Riyal   QAR "/>
+                <item value="Yemeni Riyal   YER "/>
+                <item value="Somali Shilling   SOS "/>
+                <item value="Djiboutian Franc   DJF "/>
+                <item value="Comorian Franc   KMF "/>
+                <item value="Syrian Pound   SYP "/>
+                <item value="Lebanese Pound   LBP "/>
               </model>
             </properties>
           </component>
-          <component id="f33ea" class="javax.swing.JRadioButton" binding="oppositeRadioButton" default-binding="true">
+          <component id="a7a84" class="javax.swing.JButton" binding="SwapButton">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-16740221"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
               <font size="16"/>
-              <text value="Opposite"/>
+              <text value="🔄"/>
             </properties>
           </component>
         </children>

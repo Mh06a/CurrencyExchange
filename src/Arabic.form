@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="541" height="457"/>
+      <xy x="20" y="20" width="633" height="457"/>
     </constraints>
     <properties>
       <background color="-16740221"/>
@@ -72,7 +72,7 @@
           </component>
         </children>
       </grid>
-      <grid id="5e294" binding="CurrenciesPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="5e294" binding="CurrenciesPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -93,7 +93,7 @@
           </component>
           <component id="c98bd" class="javax.swing.JLabel" binding="CurrencyTo">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <font size="16"/>
@@ -124,7 +124,7 @@
                 <item value="ريال قطري QAR"/>
                 <item value="ريال يمني YER"/>
                 <item value="شلن صومالي SOS"/>
-                <item value="فرنك جيبوتي DFJ"/>
+                <item value="فرنك جيبوتي DJF"/>
                 <item value="فرنك قمري KMF"/>
                 <item value="ليرة السوريه SYP"/>
                 <item value="ليرة البنانية LBP"/>
@@ -133,7 +133,7 @@
           </component>
           <component id="471f" class="javax.swing.JComboBox" binding="ToComboBox">
             <constraints>
-              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <model>
@@ -155,7 +155,7 @@
                 <item value="ريال قطري QAR"/>
                 <item value="ريال يمني YER"/>
                 <item value="شلن صومالي SOS"/>
-                <item value="فرنك جيبوتي DFJ"/>
+                <item value="فرنك جيبوتي DJF"/>
                 <item value="فرنك قمري KMF"/>
                 <item value="ليرة السوريه SYP"/>
                 <item value="ليرة البنانية LBP"/>
@@ -169,6 +169,17 @@
             <properties>
               <font size="18"/>
               <text value="حدد العمله "/>
+            </properties>
+          </component>
+          <component id="1e2a2" class="javax.swing.JButton" binding="SwapButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font size="16"/>
+              <text value="🔄"/>
             </properties>
           </component>
         </children>
